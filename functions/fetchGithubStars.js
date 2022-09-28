@@ -4,7 +4,7 @@ const axios = require('axios')
 // GraphQL query for Github API (https://developer.github.com/v4/)
 const query = `
   query {
-    react: repository(owner: "mui-org", name: "material-ui") {
+    react: repository(owner: "mui", name: "material-ui") {
       url
       stargazers {
         totalCount
